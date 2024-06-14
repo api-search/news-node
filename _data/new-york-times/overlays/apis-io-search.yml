@@ -6,18 +6,24 @@ description: >-
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/apis-json/artisanal/main/apisnew-york-times.yml
-created: 2023-10-06
-modified: 2024-06-14
+created: '2023-10-06T00:00:00.000Z'
+modified: '2024-06-14T00:00:00.000Z'
 specificationVersion: '0.18'
 tags: []
 apis:
   - name: Archive API
     description: >-
-      The Archive API returns an array of NYT articles for a given month, going back to 1851. Its response fields are the same as the Article Search API.  The Archive API is very useful if you want to build your own database of NYT article metadata.
+      The Archive API returns an array of NYT articles for a given month, going
+      back to 1851. Its response fields are the same as the Article Search API. 
+      The Archive API is very useful if you want to build your own database of
+      NYT article metadata.
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://developer.nytimes.com/docs/archive-product/1/overview
     baseURL: https://api.nytimes.com
-    tags: []
+    tags:
+      - Archive
+      - Months
+      - Years
     properties:
       - type: Documentation
         url: https://developer.nytimes.com/docs/archive-product/1/overview
@@ -31,7 +37,9 @@ apis:
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://developer.nytimes.com/docs/articlesearch-product/1/overview
     baseURL: https://api.nytimes.com
-    tags: []
+    tags:
+      - Articles
+      - Search
     properties:
       - type: Documentation
         url: https://developer.nytimes.com/docs/articlesearch-product/1/overview
@@ -73,7 +81,17 @@ apis:
     humanURL: https://developer.nytimes.com/docs/movie-reviews-api/1/overview
     baseURL: >-
       https://api.apis.guru/v2/specs/nytimes.com/movie_reviews/2.0.0/openapi.yaml
-    tags: []
+    tags:
+      - Bio
+      - Critics
+      - Images
+      - Movie
+      - Names
+      - Reviewers
+      - Reviews
+      - Search
+      - Search
+      - Types
     properties:
       - type: Documentation
         url: https://example.com/documentation
@@ -90,7 +108,12 @@ apis:
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://developer.nytimes.com/docs/semantic-api-product/1/overview
     baseURL: https://api.example.com
-    tags: []
+    tags:
+      - Concepts
+      - Names
+      - Search
+      - Specific
+      - Types
     properties:
       - type: Documentation
         url: https://developer.nytimes.com/docs/semantic-api-product/1/overview
@@ -106,7 +129,8 @@ apis:
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://developer.nytimes.com/docs/timestags-product/1/overview
     baseURL: https://api.example.com
-    tags: []
+    tags:
+      - Tags
     properties:
       - type: Documentation
         url: https://developer.nytimes.com/docs/timestags-product/1/overview
@@ -123,7 +147,10 @@ apis:
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://developer.nytimes.com/docs/timeswire-product/1/overview
     baseURL: https://api.example.com
-    tags: []
+    tags:
+      - Content
+      - Sections
+      - Sources
     properties:
       - type: Documentation
         url: https://developer.nytimes.com/docs/timeswire-product/1/overview
