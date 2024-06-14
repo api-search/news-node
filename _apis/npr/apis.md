@@ -5,31 +5,11 @@ description: >-
   authentication, user management and listening.
 image: https://dev.npr.org/NPRLogo_BlackOutline.png
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/npr.yml
-created: 2023/11/1
-modified: 2023/11/1
+created: 2023-11-11
+modified: 2024-06-14
 specificationVersion: '0.16'
 tags: []
 apis:
-  - name: Listening
-    description: Audio recommendations tailored to a user's preferences.
-    image: https://dev.npr.org/NPRLogo_BlackOutline.png
-    humanURL: https://dev.npr.org/?urls.primaryName=listening
-    baseURL: https://listening.api.npr.org
-    tags: []
-    properties:
-      - type: Documentation
-        url: https://dev.npr.org/?urls.primaryName=listening
-      - type: OpenAPI
-        url: https://listening.api.npr.org/v2/swagger.json
-    contact:
-      - FN: ''
-        url: ''
-        email: ''
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://listening.api.npr.org/v2/swagger.json-openapi-search.yml
-    aid: npr:listening
   - name: Station
     description: NPR Station information.
     image: https://dev.npr.org/NPRLogo_BlackOutline.png
@@ -39,13 +19,8 @@ apis:
     properties:
       - type: Documentation
         url: https://dev.npr.org/?urls.primaryName=station
-      - type: Swagger
-        url: https://station.api.npr.org/v3/swagger.json
-    contact:
-      - FN: ''
-        url: ''
-        email: ''
-    overlays: []
+      - type: OpenAPI
+        url: properties/npr-station-finder-openapi-original.yml
     aid: npr:station
   - name: Identity
     description: User management API.
@@ -57,12 +32,7 @@ apis:
       - type: Documentation
         url: https://dev.npr.org/?urls.primaryName=identity
       - type: Swagger
-        url: https://identity.api.npr.org/v2/swagger.json
-    contact:
-      - FN: ''
-        url: ''
-        email: ''
-    overlays: []
+        url: properties/npr-identity-openapi-original.yml
     aid: npr:identity
   - name: Authorization
     description: API Authorization.
@@ -74,15 +44,7 @@ apis:
       - type: Documentation
         url: https://dev.npr.org/?urls.primaryName=authorization
       - type: OpenAPI
-        url: https://authorization.api.npr.org/v2/swagger.json
-    contact:
-      - FN: ''
-        url: ''
-        email: ''
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://authorization.api.npr.org/v2/swagger.json-openapi-search.yml
+        url: properties/npr-authorization-openapi-original.yml
     aid: npr:authorization
 maintainers:
   - FN: Steven Willmott
@@ -90,8 +52,6 @@ maintainers:
     email: steve@timewarp.io
 overlays:
   - type: APIs.io Search
-    url: overlays/apis-io-search.yml
-  - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: npr
 ---
