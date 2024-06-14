@@ -7,18 +7,14 @@ description: >-
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/apis-json/artisanal/main/apisnew-york-times.yml
-created: 2023/10/6
-modified: 2023/10/6
-specificationVersion: '0.16'
+created: 2023-10-06
+modified: 2024-06-14
+specificationVersion: '0.18'
 tags: []
 apis:
   - name: Archive API
     description: >-
-      The Archive API returns an array of NYT articles for a given month, going
-      back to 1851. Its response fields are the same as the Article Search API.
-      The Archive API is very useful if you want to build your own database of
-      NYT article metadata. You simply pass the API the year and month and it
-      returns a JSON object with all articles for t
+      The Archive API returns an array of NYT articles for a given month, going back to 1851. Its response fields are the same as the Article Search API.  The Archive API is very useful if you want to build your own database of NYT article metadata.
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://developer.nytimes.com/docs/archive-product/1/overview
     baseURL: https://api.nytimes.com
@@ -27,11 +23,7 @@ apis:
       - type: Documentation
         url: https://developer.nytimes.com/docs/archive-product/1/overview
       - type: OpenAPI
-        url: https://api.apis.guru/v2/specs/nytimes.com/archive/1.0.0/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/nytimes.com/archive/1.0.0/openapi.yaml-openapi-search.yml
+        url: properties/new-york-times-archive-openapi-original.yml
     aid: the-new-york-times:archive-api
   - name: Article Search API
     description: >-
@@ -45,12 +37,7 @@ apis:
       - type: Documentation
         url: https://developer.nytimes.com/docs/articlesearch-product/1/overview
       - type: OpenAPI
-        url: >-
-          https://api.apis.guru/v2/specs/nytimes.com/article_search/1.0.0/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/nytimes.com/article_search/1.0.0/openapi.yaml-openapi-search.yml
+        url: properties/new-york-times-article-search-openapi-original.yml
     aid: the-new-york-times:article-search-api
   - name: Books API
     description: >-
@@ -64,13 +51,7 @@ apis:
       - type: Documentation
         url: https://developer.nytimes.com/docs/books-product/1/overview
       - type: OpenAPI
-        url: >-
-          https://api.apis.guru/v2/specs/nytimes.com/books_api/3.0.0/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/nytimes.com/books_api/3.0.0/openapi.yaml-openapi-search.yml
-    aid: the-new-york-times:books-api
+        url: properties/new-york-times-books-openapi-original.yml
   - name: Most Popular
     description: >-
       Provides services for getting the most popular articles on NYTimes.com
@@ -83,12 +64,7 @@ apis:
       - type: Documentation
         url: https://developer.nytimes.com/docs/most-popular-product/1/overview
       - type: OpenAPI
-        url: >-
-          https://api.apis.guru/v2/specs/nytimes.com/most_popular_api/2.0.0/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/nytimes.com/most_popular_api/2.0.0/openapi.yaml-openapi-search.yml
+        url: properties/new-york-times-most-popular-openapi-original.yml
     aid: the-new-york-times:most-popular
   - name: Movie Reviews API
     description: >-
@@ -103,10 +79,7 @@ apis:
       - type: Documentation
         url: https://example.com/documentation
       - type: OpenAPI
-        url: http://example.com/openapi.json
-    overlays:
-      - type: APIs.io Search
-        url: overlays/http://example.com/openapi.json-openapi-search.yml
+        url: properties/new-york-times-movie-review-openapi-original.yml
     aid: the-new-york-times:movie-reviews-api
   - name: Semantic API
     description: >-
@@ -123,12 +96,7 @@ apis:
       - type: Documentation
         url: https://developer.nytimes.com/docs/semantic-api-product/1/overview
       - type: OpenAPI
-        url: >-
-          https://api.apis.guru/v2/specs/nytimes.com/semantic_api/2.0.0/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/nytimes.com/semantic_api/2.0.0/openapi.yaml-openapi-search.yml
+        url: properties/new-york-times-semantic-openapi-original.yml
     aid: the-new-york-times:semantic-api
   - name: TimesTags API
     description: >-
@@ -144,12 +112,7 @@ apis:
       - type: Documentation
         url: https://developer.nytimes.com/docs/timestags-product/1/overview
       - type: OpenAPI
-        url: >-
-          https://api.apis.guru/v2/specs/nytimes.com/times_tags/1.0.0/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/nytimes.com/times_tags/1.0.0/openapi.yaml-openapi-search.yml
+        url: properties/new-york-times-times-tags-openapi-original.yml
     aid: the-new-york-times:timestags-api
   - name: Times Newswire API
     description: >-
@@ -166,12 +129,7 @@ apis:
       - type: Documentation
         url: https://developer.nytimes.com/docs/timeswire-product/1/overview
       - type: OpenAPI
-        url: >-
-          https://api.apis.guru/v2/specs/nytimes.com/timeswire/3.0.0/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/nytimes.com/timeswire/3.0.0/openapi.yaml-openapi-search.yml
+        url: properties/new-york-times-times-newswire-openapi-original.yml
     aid: the-new-york-times:times-newswire-api
   - name: Top Stories
     description: >-
@@ -185,12 +143,7 @@ apis:
       - type: Documentation
         url: https://developer.nytimes.com/docs/top-stories-product/1/overview
       - type: OpenAPI
-        url: >-
-          https://api.apis.guru/v2/specs/nytimes.com/top_stories/2.0.0/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/nytimes.com/top_stories/2.0.0/openapi.yaml-openapi-search.yml
+        url: properties/new-york-times-top-stories-openapi-original.ymll
     aid: the-new-york-times:top-stories
 common:
   - type: Getting Started
