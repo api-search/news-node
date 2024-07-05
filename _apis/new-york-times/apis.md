@@ -5,8 +5,7 @@ description: >-
   search, books, most popular, reviews, semantic, times tags, times wire, and
   top stories APis.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-url: >-
-  https://raw.githubusercontent.com/apis-json/artisanal/main/apisnew-york-times.yml
+url: https://raw.githubusercontent.com/api-search/news/main/_apis/new-york-times/apis.md
 created: '2023-10-06T00:00:00.000Z'
 modified: '2024-07-03'
 specificationVersion: '0.18'

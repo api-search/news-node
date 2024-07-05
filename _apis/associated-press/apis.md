@@ -5,7 +5,7 @@ description: >-
   delivery application (for example, a results loader that powers your election
   websites) retrieves election race information from AP Elections API. ~
   https://developer.ap.org/ap-elections-api/
-url: https://example.com/apis/ap-elections-api-ap-developer.yml
+url: https://raw.githubusercontent.com/api-search/news/main/_apis/associated-press/apis.md
 created: 2024/04/14
 modified: '2024-07-03'
 specificationVersion: '0.18'

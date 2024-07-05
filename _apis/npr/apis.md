@@ -3,7 +3,7 @@ name: NPR
 description: >-
   National Public Radio (NPR) APIs. The APIs support station finding,
   authentication, user management and listening.
-url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/npr.yml
+url: https://raw.githubusercontent.com/api-search/news/main/_apis/npr/apis.md
 created: 2024/04/14
 modified: '2024-07-03'
 specificationVersion: '0.18'
