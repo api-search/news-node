@@ -8,7 +8,8 @@ url: https://raw.githubusercontent.com/api-search/news/main/_data/new-york-times
 created: '2023-10-06T00:00:00.000Z'
 modified: '2024-07-03'
 specificationVersion: '0.18'
-tags: []
+tags:
+  - News
 apis:
   - name: Archive API
     description: >-

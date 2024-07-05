@@ -10,7 +10,7 @@ created: 2024/04/14
 modified: '2024-07-03'
 specificationVersion: '0.18'
 tags:
-  - Bookmarks
+  - News
 apis:
   - name: AP Elections API | AP Developer
     description: >-
