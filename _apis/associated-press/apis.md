@@ -22,5 +22,3 @@ apis:
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
-
----
