@@ -1,11 +1,11 @@
----
 name: The New York Times
 description: >-
   The official developer area for accessing The New York Times archive, article
   search, books, most popular, reviews, semantic, times tags, times wire, and
   top stories APis.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-url: https://raw.githubusercontent.com/api-search/news/main/_apis/new-york-times/apis.md
+url: >-
+  https://raw.githubusercontent.com/api-search/news/main/_apis/new-york-times/apis.md
 created: '2023-10-06T00:00:00.000Z'
 modified: '2024-07-03'
 specificationVersion: '0.18'
@@ -59,6 +59,7 @@ apis:
         url: https://developer.nytimes.com/docs/books-product/1/overview
       - type: OpenAPI
         url: properties/new-york-times-books-openapi-original.yml
+    aid: the-new-york-times:books-api
   - name: Most Popular
     description: >-
       Provides services for getting the most popular articles on NYTimes.com
@@ -190,5 +191,3 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: the-new-york-times
-
----
