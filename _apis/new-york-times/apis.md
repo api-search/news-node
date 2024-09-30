@@ -1,3 +1,4 @@
+---
 name: The New York Times
 description: >-
   The official developer area for accessing The New York Times archive, article
@@ -191,3 +192,4 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: the-new-york-times
+---

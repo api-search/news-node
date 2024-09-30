@@ -1,3 +1,4 @@
+---
 name: ProPublica Data Store
 description: >-
   Enhance your own applications with fast, reliable access to the data that
@@ -20,3 +21,4 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 aid: propublica-data-store
+---

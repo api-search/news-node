@@ -1,3 +1,4 @@
+---
 name: Associated Press (AP) Elections API
 description: >-
   Integrate your election systems with AP Elections API. Your election results
@@ -24,3 +25,4 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 aid: associated-press-ap-elections-api
+---
